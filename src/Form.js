@@ -33,11 +33,11 @@ class Form extends Component {
           <form className={classes.form}>
             <FormControl margin="normal" required fullWidth>
               <InputLabel htmlFor="email">Email</InputLabel>
-              <Input id="email" name="email" autofocus />
+              <Input id="email" name="email" autoFocus />
             </FormControl>
             <FormControl margin="normal" required fullWidth>
               <InputLabel htmlFor="password">Password</InputLabel>
-              <Input id="password" name="password" autofocus />
+              <Input id="password" name="password" autoFocus />
             </FormControl>
             <FormControlLabel
               label="Remember Me"
