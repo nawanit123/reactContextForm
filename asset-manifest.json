@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactContextForm/static/css/main.d6f94b6f.chunk.css",
+    "main.js": "/reactContextForm/static/js/main.d37f1788.chunk.js",
+    "main.js.map": "/reactContextForm/static/js/main.d37f1788.chunk.js.map",
+    "runtime-main.js": "/reactContextForm/static/js/runtime-main.185c99b7.js",
+    "runtime-main.js.map": "/reactContextForm/static/js/runtime-main.185c99b7.js.map",
+    "static/js/2.a7c104b3.chunk.js": "/reactContextForm/static/js/2.a7c104b3.chunk.js",
+    "static/js/2.a7c104b3.chunk.js.map": "/reactContextForm/static/js/2.a7c104b3.chunk.js.map",
+    "index.html": "/reactContextForm/index.html",
+    "precache-manifest.7535b0e0cef18c8e21170a53690e71ea.js": "/reactContextForm/precache-manifest.7535b0e0cef18c8e21170a53690e71ea.js",
+    "service-worker.js": "/reactContextForm/service-worker.js",
+    "static/css/main.d6f94b6f.chunk.css.map": "/reactContextForm/static/css/main.d6f94b6f.chunk.css.map",
+    "static/js/2.a7c104b3.chunk.js.LICENSE.txt": "/reactContextForm/static/js/2.a7c104b3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.185c99b7.js",
+    "static/js/2.a7c104b3.chunk.js",
+    "static/css/main.d6f94b6f.chunk.css",
+    "static/js/main.d37f1788.chunk.js"
+  ]
+}
