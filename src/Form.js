@@ -11,7 +11,6 @@ import { Typography } from '@material-ui/core';
 import { MenuItem } from '@material-ui/core';
 import { Select } from '@material-ui/core';
 import { LockOutlined as LockOutlinedIcon } from '@material-ui/icons';
-import { withStyles } from '@material-ui/core/styles';
 import styles from './styles/formStyles';
 import { LanguageContext } from './contexts/LanguageContext';
 
@@ -37,7 +36,7 @@ const words = {
 };
 const Form = (props) => {
   const { language, setLang } = useContext(LanguageContext);
-  const { classes } = props;
+  const classes = styles();
   const { signIn, email, password, remember } = words[language];
   return (
     <main className={classes.main}>
@@ -86,4 +85,4 @@ const Form = (props) => {
   );
 };
 
-export default withStyles(styles)(Form);
+export default Form;

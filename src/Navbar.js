@@ -6,7 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import InputBase from '@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
 import Switch from '@material-ui/core/Switch';
-import { withStyles } from '@material-ui/core/styles';
 
 import styles from './styles/NavbarStyles';
 import { ThemeContext } from './contexts/ThemeContext';
@@ -30,7 +29,7 @@ const content = {
 function Navbar(props) {
   const { isDarkMode, toggleTheme } = useContext(ThemeContext);
   const { language } = useContext(LanguageContext);
-  const { classes } = props;
+  const classes = styles();
   const { search, flag } = content[language];
   return (
     <div className={classes.root}>
@@ -66,4 +65,4 @@ function Navbar(props) {
   );
 }
 
-export default withStyles(styles)(Navbar);
+export default Navbar;
